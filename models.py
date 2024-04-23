@@ -3,16 +3,14 @@ from django.db import models
 # Create your models here.
 
 CATEGORY_CHOICES=(
-    ('AM','Amoxicillin'),
-    ('AP','Amplodipine'),
-    ('PC','Paracetamol'),
-    ('AT','Atorvastatin'),
-    ('BP','Brufen'),
-    ('CC','Ciprofloxacin'),
-    ('MF','Metformin'),
-    ('MA','Metronidazole'),
-    ('OM','Omeprazole'),
-    ('PD','Panadol'),
+    ('CL','Cold'),
+    ('EY','Eye'),
+    ('DT','Dehydration'),
+    ('HT','Heatstock'),
+    ('SA','Seasonal allergies'),
+    ('TP','Typhoid'),
+    ('OT','Other'),
+    
 )
 
 class Product(models.Model):
